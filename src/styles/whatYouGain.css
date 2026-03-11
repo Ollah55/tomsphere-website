@@ -1,0 +1,123 @@
+.gain-section{
+  padding:90px 60px;
+  background:#ffffff;
+  text-align:center;
+}
+
+.gain-title{
+  font-size:46px;
+  color:#1663ac;
+  margin-bottom:70px;
+}
+
+.gain-container{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:35px;
+}
+
+.gain-card{
+  background:#f4f7fb;
+  padding:35px 25px;
+  border-radius:16px;
+  transition:all 0.3s ease;
+}
+
+.gain-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.gain-icon{
+  color:#1663ac;
+  margin-bottom:20px;
+}
+
+.gain-card h3{
+  color:#1663ac;
+  margin-bottom:10px;
+  font-size:20px;
+}
+
+.gain-card p{
+  font-size:15px;
+  color:#4a4a4a;
+  line-height:1.6;
+}
+/* =========================
+TABLET (1024px)
+========================= */
+
+@media (max-width:1024px){
+
+.gain-section{
+padding:70px 40px;
+}
+
+.gain-title{
+font-size:36px;
+margin-bottom:50px;
+}
+
+.gain-container{
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+}
+
+}
+
+
+/* =========================
+MOBILE (768px)
+========================= */
+
+@media (max-width:768px){
+
+.gain-section{
+padding:60px 25px;
+}
+
+.gain-title{
+font-size:28px;
+margin-bottom:40px;
+}
+
+.gain-container{
+grid-template-columns:1fr;
+gap:22px;
+}
+
+.gain-card{
+padding:30px 20px;
+}
+
+.gain-card h3{
+font-size:18px;
+}
+
+.gain-card p{
+font-size:14px;
+}
+
+}
+
+
+/* =========================
+SMALL PHONES
+========================= */
+
+@media (max-width:480px){
+
+.gain-title{
+font-size:24px;
+}
+
+.gain-card{
+padding:25px 18px;
+}
+
+.gain-card p{
+font-size:13px;
+}
+
+}

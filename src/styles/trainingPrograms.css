@@ -1,0 +1,155 @@
+.training-section {
+  background: #e7edf3;
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.training-title {
+  font-size: 48px;
+  color: #1663ac;
+  margin-bottom: 60px;
+}
+
+.training-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.training-card {
+  background: #f1f1f1;
+  border-radius: 18px;
+  padding: 35px 30px;
+  text-align: left;
+  border: 2px solid #c8d8e8;
+  transition: 0.3s;
+}
+
+.training-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.training-icon {
+  color: #1663ac;
+  margin-bottom: 15px;
+}
+
+.training-card h3 {
+  color: #1663ac;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.training-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1663ac;
+  margin-bottom: 25px;
+}
+
+.apply-btn2 {
+  background: #1663ac;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 80%;
+}
+
+.apply-btn2:hover {
+  background: #0f4f8a;
+}
+/* =========================
+TABLET (1024px)
+========================= */
+
+@media (max-width:1024px){
+
+.training-section{
+padding:70px 40px;
+}
+
+.training-title{
+font-size:36px;
+margin-bottom:50px;
+}
+
+.training-container{
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+}
+
+.training-card{
+padding:30px 25px;
+}
+
+}
+
+
+/* =========================
+MOBILE (768px)
+========================= */
+
+@media (max-width:768px){
+
+.training-section{
+padding:60px 25px;
+}
+
+.training-title{
+font-size:28px;
+margin-bottom:40px;
+}
+
+.training-container{
+grid-template-columns:1fr;
+gap:20px;
+}
+
+.training-card{
+padding:28px 22px;
+text-align:center;
+}
+
+.training-icon{
+display:flex;
+justify-content:center;
+}
+
+.training-card h3{
+font-size:20px;
+}
+
+.training-card p{
+font-size:15px;
+}
+
+.apply-btn2{
+width:100%;
+}
+
+}
+
+
+/* =========================
+SMALL PHONES
+========================= */
+
+@media (max-width:480px){
+
+.training-title{
+font-size:24px;
+}
+
+.training-card h3{
+font-size:18px;
+}
+
+.training-card p{
+font-size:14px;
+}
+
+}

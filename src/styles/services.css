@@ -1,0 +1,92 @@
+.services-page{
+padding:80px 8%;
+}
+
+/* HERO */
+
+.services-hero{
+text-align:center;
+margin-bottom:70px;
+}
+
+.services-hero h1{
+font-size:42px;
+color:#1e63a8;
+margin-bottom:15px;
+}
+
+.services-hero p{
+max-width:650px;
+margin:auto;
+font-size:18px;
+line-height:1.6;
+}
+
+
+/* SERVICES GRID */
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+margin-bottom:100px;
+}
+
+.service-card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.service-card:hover{
+transform:translateY(-6px);
+}
+
+.service-card h3{
+color:#1e63a8;
+margin-bottom:10px;
+}
+
+
+/* PROCESS */
+
+.process-section{
+text-align:center;
+margin-bottom:100px;
+}
+
+.process-grid{
+margin-top:40px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.process-card{
+background:#f5f7fa;
+padding:25px;
+border-radius:10px;
+}
+
+
+/* CTA */
+
+.services-cta{
+text-align:center;
+background:#1e63a8;
+color:white;
+padding:60px 20px;
+border-radius:10px;
+}
+
+.cta-btn{
+display:inline-block;
+margin-top:20px;
+background:#f59e0b;
+color:white;
+padding:12px 28px;
+border-radius:8px;
+text-decoration:none;
+}

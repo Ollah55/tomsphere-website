@@ -1,0 +1,198 @@
+.training-works{
+  background:#e7edf3;
+  padding:90px 60px;
+  text-align:center;
+}
+
+.training-works-title{
+  font-size:46px;
+  color:#1663ac;
+  margin-bottom:80px;
+}
+
+/* layout */
+
+.training-steps{
+  position:relative;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:40px;
+}
+
+/* connecting line */
+
+.training-steps::before{
+  content:"";
+  position:absolute;
+  top:55px;
+  left:8%;
+  width:84%;
+  height:4px;
+  background:#cbd9e8;
+  z-index:0;
+}
+
+/* step */
+
+.training-step{
+  position:relative;
+  z-index:1;
+}
+
+.training-step h3{
+  color:#1663ac;
+  font-size:22px;
+  margin-top:25px;
+  margin-bottom:10px;
+}
+
+.training-step p{
+  color:#1663ac;
+  font-size:16px;
+  max-width:240px;
+  margin:auto;
+}
+
+/* circle */
+
+.step-circle{
+  width:110px;
+  height:110px;
+  background:#1663ac;
+  color:white;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:28px;
+  font-weight:600;
+  margin:auto;
+  transition:transform 0.3s ease;
+}
+
+/* hover animation */
+
+.training-step:hover .step-circle{
+  transform:scale(1.1);
+}
+
+/* fade animation */
+
+.training-step{
+  opacity:0;
+  transform:translateY(30px);
+  animation:fadeUp 0.8s forwards;
+}
+
+.training-step:nth-child(1){animation-delay:0.2s;}
+.training-step:nth-child(2){animation-delay:0.4s;}
+.training-step:nth-child(3){animation-delay:0.6s;}
+.training-step:nth-child(4){animation-delay:0.8s;}
+
+@keyframes fadeUp{
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+/* =========================
+TABLET (1024px)
+========================= */
+
+@media (max-width:1024px){
+
+.training-works{
+padding:70px 40px;
+}
+
+.training-works-title{
+font-size:36px;
+margin-bottom:60px;
+}
+
+.training-steps{
+grid-template-columns:repeat(2,1fr);
+gap:40px;
+}
+
+/* hide long line */
+.training-steps::before{
+display:none;
+}
+
+.step-circle{
+width:95px;
+height:95px;
+font-size:24px;
+}
+
+}
+
+
+/* =========================
+MOBILE (768px)
+========================= */
+
+@media (max-width:768px){
+
+.training-works{
+padding:60px 25px;
+}
+
+.training-works-title{
+font-size:28px;
+margin-bottom:50px;
+}
+
+.training-steps{
+grid-template-columns:1fr;
+gap:35px;
+}
+
+/* remove line */
+.training-steps::before{
+display:none;
+}
+
+.step-circle{
+width:85px;
+height:85px;
+font-size:22px;
+}
+
+.training-step h3{
+font-size:20px;
+}
+
+.training-step p{
+font-size:15px;
+}
+
+}
+
+
+/* =========================
+SMALL PHONES
+========================= */
+
+@media (max-width:480px){
+
+.training-works-title{
+font-size:24px;
+}
+
+.step-circle{
+width:75px;
+height:75px;
+font-size:20px;
+}
+
+.training-step h3{
+font-size:18px;
+}
+
+.training-step p{
+font-size:14px;
+}
+
+}

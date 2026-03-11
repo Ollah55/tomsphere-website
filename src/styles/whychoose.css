@@ -1,0 +1,126 @@
+.whychoose {
+  background: #d9dee2;
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.why-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1663ac;
+  margin-bottom: 60px;
+}
+
+.why-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.why-card {
+  background: #e9e9e9;
+  padding: 40px 30px;
+  border-radius: 18px;
+  text-align: left;
+  transition: 0.3s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  color: #f07c00;
+  margin-bottom: 20px;
+}
+
+.why-card p {
+  font-size: 22px;
+  color: #1663ac;
+  font-weight: 500;
+  line-height: 1.4;
+}
+/* =========================
+TABLET (1024px)
+========================= */
+
+@media (max-width:1024px){
+
+.whychoose{
+padding:70px 40px;
+}
+
+.why-title{
+font-size:38px;
+margin-bottom:50px;
+}
+
+.why-container{
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+}
+
+.why-card{
+padding:35px 25px;
+}
+
+.why-card p{
+font-size:20px;
+}
+
+}
+
+
+/* =========================
+MOBILE (768px)
+========================= */
+
+@media (max-width:768px){
+
+.whychoose{
+padding:60px 25px;
+}
+
+.why-title{
+font-size:30px;
+margin-bottom:40px;
+}
+
+.why-container{
+grid-template-columns:1fr;
+gap:20px;
+}
+
+.why-card{
+padding:30px 22px;
+text-align:center;
+}
+
+.icon{
+display:flex;
+justify-content:center;
+}
+
+.why-card p{
+font-size:18px;
+}
+
+}
+
+
+/* =========================
+SMALL PHONES
+========================= */
+
+@media (max-width:480px){
+
+.why-title{
+font-size:26px;
+}
+
+.why-card p{
+font-size:16px;
+}
+
+}

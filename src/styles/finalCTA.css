@@ -1,0 +1,39 @@
+.final-cta{
+  padding:100px 60px;
+  background:white;
+  color:#1565a9;
+  text-align:center;
+}
+
+.cta-container{
+  max-width:700px;
+  margin:auto;
+}
+
+.cta-container h2{
+  font-size:44px;
+  margin-bottom:20px;
+}
+
+.cta-container p{
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:40px;
+}
+
+.cta-button{
+  display:inline-block;
+  background:#f28c18;
+  color:white;
+  padding:14px 30px;
+  border-radius:30px;
+  text-decoration:none;
+  font-size:16px;
+  font-weight:600;
+  transition:all 0.3s ease;
+}
+
+.cta-button:hover{
+  background:#d9790f;
+  transform:translateY(-3px);
+}
