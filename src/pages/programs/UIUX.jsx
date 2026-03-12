@@ -2,7 +2,7 @@ import "../../styles/programs.css"
 function UIUX() {
   return (
 
-    <section className="program-details">
+    <section className="program-details" data-aos="fade-up">
 
       <h1>UI/UX Design</h1>
 
@@ -25,7 +25,7 @@ function UIUX() {
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLScfEVSSaC10cB8RCUPUI0ZV10fEO4_S_Mj2Kpf10tt_SMU6Qw/viewform"
         target="_blank"
-        className="apply-btn"
+        className="program-apply-btn"
       >
         Apply for this Program
       </a>

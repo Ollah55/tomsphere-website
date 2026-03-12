@@ -81,3 +81,113 @@ color:white;
 .bullet{
 font-size:22px;
 }
+/* PROGRAM DETAILS PAGE */
+
+.program-details{
+  max-width:900px;
+  margin:140px auto;
+  padding:40px 30px;
+  background:white;
+  border-radius:15px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.08);
+  line-height:1.7;
+}
+
+/* Title */
+
+.program-details h1{
+  font-size:42px;
+  color:#1565a9;
+  margin-bottom:20px;
+}
+
+/* Description */
+
+.program-details p{
+  font-size:18px;
+  color:#444;
+  margin-bottom:30px;
+}
+
+/* Sub heading */
+
+.program-details h3{
+  font-size:24px;
+  color:#1565a9;
+  margin-bottom:15px;
+}
+
+/* List */
+
+.program-details ul{
+  margin-bottom:35px;
+  padding-left:20px;
+}
+
+.program-details li{
+  margin-bottom:10px;
+  font-size:17px;
+}
+
+/* Apply button */
+
+.program-apply-btn{
+  display:inline-block;
+  background:#1565a9;
+  color:white;
+  padding:14px 28px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.program-apply-btn:hover{
+  background:#0f4f86;
+}
+/* TABLET */
+
+@media (max-width: 1024px){
+
+.program-details{
+  margin:120px 20px;
+  padding:30px;
+}
+
+.program-details h1{
+  font-size:34px;
+}
+
+.program-details p{
+  font-size:16px;
+}
+
+}
+
+/* MOBILE */
+
+@media (max-width: 768px){
+
+.program-details{
+  margin:120px 15px;
+  padding:25px;
+}
+
+.program-details h1{
+  font-size:28px;
+}
+
+.program-details h3{
+  font-size:20px;
+}
+
+.program-details li{
+  font-size:15px;
+}
+
+.program-apply-btn{
+  width:60%;
+  text-align:center;
+}
+
+}
