@@ -1,8 +1,16 @@
 import "../../styles/programs.css"
+import { useNavigate } from "react-router-dom"
 function Frontend() {
+    const navigate = useNavigate()
   return (
 
     <section className="program-details" data-aos="fade-up">
+         <button
+        className="back-btn"
+        onClick={() => navigate(-1)}
+      >
+        ← Back to Programs
+      </button>
 
       <h1>Frontend Development</h1>
 
