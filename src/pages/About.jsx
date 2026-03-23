@@ -3,6 +3,19 @@ import founder from "../assets/me.jpg"
 
 function About() {
   return (
+    <>
+    <Helmet>
+        <title>About Tomsphere Globaltech | Tech Training Company</title>
+
+        <meta
+        name="description"
+        content="Learn about Tomsphere Globaltech, our mission, vision and commitment to empowering individuals with tech skills and digital solutions."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Ikeja, Lagos" />
+    </Helmet>
+    
     <section className="about-page">
 
       {/* ===== Founder Section ===== */}
@@ -213,6 +226,7 @@ function About() {
       </section>
 
     </section>
+    </>
   )
 }
 

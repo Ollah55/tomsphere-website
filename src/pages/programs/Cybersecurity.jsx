@@ -3,7 +3,19 @@ import { useNavigate } from "react-router-dom"
 function Cybersecurity() {
     const navigate = useNavigate()
   return (
+    <>
+    <Helmet>
+        <title>Cybersecurity Training | Tomsphere Globaltech</title>
 
+        <meta
+        name="description"
+        content="Learn ethical hacking, network security and cyber defense techniques. Start a career in cybersecurity with hands-on training."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Ikeja, Lagos" />
+    </Helmet>
+    
     <section className="program-details" data-aos="fade-up">
          <button
         className="back-btn"
@@ -39,7 +51,7 @@ function Cybersecurity() {
       </a>
 
     </section>
-
+    </>
   )
 }
 

@@ -4,10 +4,11 @@ import { Laptop } from "lucide-react";
 
 function ServicesSection() {
   const services = [
-    "Website Design & Development",
-    "Business Websites",
-    "Landing Page Development",
-    "Website Maintenance and Updates",
+   "We don’t just train — we build solutions",
+    "✔ Website Development",  
+    "✔ Software Development", 
+    "✔ IT Consulting", 
+    "✔ Digital Solutions for Businesses",  
   ];
 
   return (
@@ -17,7 +18,7 @@ function ServicesSection() {
       <div className="services-container">
         
         <div className="services-image">
-          <img src={screen} alt="web development" />
+          <img src={screen} alt="Tomsphere Globaltech web development" />
         </div>
 
         <div className="services-content">

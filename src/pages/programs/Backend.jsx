@@ -3,7 +3,19 @@ import { useNavigate } from "react-router-dom"
 function Backend() {
     const navigate = useNavigate()
   return (
+    <>
+    <Helmet>
+        <title>Backend Development Training | Tomsphere Globaltech</title>
 
+        <meta
+        name="description"
+        content="Master backend development using Node.js, databases and APIs. Learn to build scalable server-side applications."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Ikeja, Lagos" />
+    </Helmet>
+    
     <section className="program-details" data-aos="fade-up">
          <button
         className="back-btn"
@@ -39,7 +51,7 @@ function Backend() {
       </a>
 
     </section>
-
+    </>
   )
 }
 

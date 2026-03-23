@@ -6,12 +6,13 @@ function Programs() {
   return (
     <>
       <Helmet>
-        <title>Tech Training Programs | Tomsphere Globaltech</title>
-        <meta
-            name="description"
-            content="Explore Tomsphere Globaltech training programs including Frontend Development, Backend Development, Cybersecurity, UI/UX Design, Fullstack Development and Data Analytics."
-            />
-      </Helmet>
+        <title>Frontend Development Training | Tomsphere</title>
+
+        <meta name="description" content="Learn HTML, CSS, JavaScript and React with hands-on frontend development training at Tomsphere Globaltech." />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Ikeja, Lagos" />
+    </Helmet>
 
       <section className="programs-page">
 

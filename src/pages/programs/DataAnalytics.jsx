@@ -3,7 +3,19 @@ import { useNavigate } from "react-router-dom"
 function DataAnalytics() {
     const navigate = useNavigate()
   return (
+    <>
+    <Helmet>
+        <title>Data Analytics Training | Tomsphere Globaltech</title>
 
+        <meta
+        name="description"
+        content="Learn data analysis using Excel, SQL and visualization tools. Gain insights and start a career in data analytics."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Ikeja, Lagos" />
+    </Helmet>
+    
     <section className="program-details" data-aos="fade-up">
          <button
         className="back-btn"
@@ -39,7 +51,7 @@ function DataAnalytics() {
       </a>
 
     </section>
-
+    </>
   )
 }
 

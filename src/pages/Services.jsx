@@ -2,6 +2,19 @@ import "../styles/services.css"
 
 function Services() {
   return (
+    <>
+    <Helmet>
+        <title>Tech Services & Solutions | Tomsphere Globaltech</title>
+
+        <meta
+        name="description"
+        content="We provide web development, software solutions, IT consulting and digital services to help businesses grow."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Ikeja, Lagos" />
+    </Helmet>
+    
     <section className="services-page">
 
       {/* HERO */}
@@ -133,6 +146,7 @@ function Services() {
       </div>
 
     </section>
+    </>
   )
 }
 

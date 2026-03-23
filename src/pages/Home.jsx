@@ -12,6 +12,17 @@ import FinalCTA from "../components/FinalCTA"
 function Home() {
   return (
     <>
+    <Helmet>
+        <title>Tomsphere Globaltech | Tech Training & Digital Solutions</title>
+
+        <meta
+        name="description"
+        content="Tomsphere Globaltech offers hands-on tech training in Frontend, Backend, Cybersecurity, UI/UX and Data Analytics. Start your tech career today."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Ikeja, Lagos" />
+    </Helmet>
       <Hero />
       <WhyChoose />
       <TrainingPrograms />

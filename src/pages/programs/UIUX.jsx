@@ -3,7 +3,19 @@ import { useNavigate } from "react-router-dom"
 function UIUX() {
     const navigate = useNavigate()
   return (
+    <>
+    <Helmet>
+        <title>UI/UX Design Training | Tomsphere Globaltech</title>
 
+        <meta
+        name="description"
+        content="Learn UI/UX design, wireframing, prototyping and user research. Build modern and user-friendly digital products."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Ikeja, Lagos" />
+    </Helmet>
+    
     <section className="program-details" data-aos="fade-up">
          <button
         className="back-btn"
@@ -39,7 +51,7 @@ function UIUX() {
       </a>
 
     </section>
-
+    </>
   )
 }
 

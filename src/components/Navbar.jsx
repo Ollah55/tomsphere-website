@@ -17,7 +17,7 @@ function Navbar() {
       {/* Logo */}
       <div className="logo-container">
         <NavLink to="/" onClick={closeMenu}>
-          <img src={logo} alt="Tomsphere Logo" className="logo" />
+          <img src={logo} alt="Tomsphere Globaltech logo" className="logo" />
         </NavLink>
       </div>
 

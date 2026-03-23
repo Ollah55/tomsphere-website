@@ -61,7 +61,7 @@ useEffect(() => {
       </div>
 
       <div className="hero-right">
-        <img src={slides[current].image} alt="hero visual" />
+        <img src={slides[current].image} alt="Tomsphere Globaltech logo" />
       </div>
     </section>
   );
