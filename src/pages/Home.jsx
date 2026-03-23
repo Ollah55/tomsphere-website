@@ -8,6 +8,7 @@ import HowTrainingWorks from "../components/HowTrainingWorks"
 import WhatYouGain from "../components/WhatYouGain"
 import FAQ from "../components/FAQ"
 import FinalCTA from "../components/FinalCTA"
+import { Helmet } from "react-helmet"
 
 function Home() {
   return (

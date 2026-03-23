@@ -1,5 +1,6 @@
 import "../styles/about.css"
 import founder from "../assets/me.jpg"
+import { Helmet } from "react-helmet"
 
 function About() {
   return (

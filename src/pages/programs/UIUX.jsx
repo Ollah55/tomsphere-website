@@ -1,5 +1,6 @@
 import "../../styles/programs.css"
 import { useNavigate } from "react-router-dom"
+import { Helmet } from "react-helmet"
 function UIUX() {
     const navigate = useNavigate()
   return (

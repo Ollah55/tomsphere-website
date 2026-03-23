@@ -1,4 +1,5 @@
 import "../styles/services.css"
+import { Helmet } from "react-helmet"
 
 function Services() {
   return (
