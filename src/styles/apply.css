@@ -1,0 +1,41 @@
+.application-page { padding: 140px 24px 70px; background: #f4f8fc; color: #243b53; font-family: Arial, sans-serif; min-height: 65vh; }
+.application-heading, .application-layout { max-width: 1100px; margin: 0 auto; }
+.application-heading { margin-bottom: 32px; }
+.application-heading h1, .application-next h1 { color: #14558c; font-size: clamp(30px, 4vw, 44px); }
+.application-eyebrow { color: #14558c; text-transform: uppercase; letter-spacing: .06em; font-size: 13px; font-weight: 700; }
+.application-page p, .program-fees p { line-height: 1.65; }
+.application-layout { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.application-form, .application-summary, .application-next, .fee-card { background: white; border: 1px solid #d5e2ed; border-radius: 14px; padding: 28px; }
+.application-page h2 { font-size: 22px; color: #14558c; }
+.application-form label { display: block; font-size: 15px; font-weight: 600; margin: 20px 0 8px; }
+.application-form input:not([type="checkbox"]):not([type="hidden"]), .application-form select { box-sizing: border-box; width: 100%; min-height: 46px; border: 1px solid #8c9fb0; border-radius: 6px; padding: 12px; font: inherit; background: #fff; color: #243b53; }
+.application-form fieldset { padding: 0; margin: 28px 0 0; border: 0; min-width: 0; }
+.application-form legend { color: #14558c; font-size: 22px; font-weight: 700; }
+.application-form fieldset:disabled { opacity: .6; }
+.application-form .application-consent { display: flex; gap: 12px; font-weight: 400; line-height: 1.5; margin: 24px 0; }
+.application-consent input { flex-shrink: 0; width: 20px; height: 20px; }
+.application-page a { color: #14558c; overflow-wrap: anywhere; }
+.application-button, .application-page .application-button, .fee-card .application-button { display: inline-block; padding: 14px 20px; border: 0; border-radius: 8px; background: #fbbf24; color: #102f4d; font-size: 16px; font-weight: 700; text-decoration: none; cursor: pointer; line-height: 1.4; }
+.application-button:hover { background: #f6ae14; }
+.application-button:disabled { cursor: not-allowed; }
+.application-page :focus-visible, .program-fees a:focus-visible { outline: 3px solid #1565a9; outline-offset: 3px; }
+.application-summary strong { display: block; font-size: 38px; color: #14558c; margin: 24px 0; }
+.application-small { font-size: 13px; }
+.application-notice { padding: 24px; background: #e6f1fb; border: 1px solid #b4d2ef; border-radius: 14px; margin-bottom: 24px; }
+.application-honey { display: none; }
+.application-next { max-width: 720px; margin: auto; }
+.application-receipt { padding: 20px; background: #f4f8fc; border-radius: 8px; }
+.application-receipt div { margin: 16px 0; }
+.application-receipt dt { font-size: 13px; }
+.application-receipt dd { margin: 6px 0 0; font-weight: 700; overflow-wrap: anywhere; }
+.program-fees { width: 100%; text-align: left; margin: 32px 0; color: #243b53; }
+.program-fees h2 { color: #14558c; }
+.fee-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px; }
+.fee-card { padding: 24px; }
+.fee-card h3 { margin-top: 0; }
+.fee-card h3 a { color: #14558c; text-decoration: none; }
+.fee-card dl div { display: flex; justify-content: space-between; gap: 12px; margin: 16px 0; }
+.fee-card dd { font-weight: 700; margin: 0; }
+@media (max-width: 768px) { .application-page { padding: 115px 18px 48px; } .application-layout { grid-template-columns: 1fr; }  .application-form, .application-next { padding: 22px; } }
+.application-summary .application-inline-fee { display: inline; font-size: inherit; margin: 0; }
+.application-payment { margin-top: 24px; border-top: 1px solid #d5e2ed; padding-top: 12px; }

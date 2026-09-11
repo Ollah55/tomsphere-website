@@ -1,3 +1,4 @@
+import ProgramFees from "../../components/ProgramFees"
 import "../../styles/programs.css"
 import { useNavigate } from "react-router-dom"
 import { Helmet } from "react-helmet"
@@ -43,10 +44,11 @@ function Cybersecurity() {
         <li>Incident Response</li>
       </ul>
 
+      <ProgramFees programId="cybersecurity" />
+
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScfEVSSaC10cB8RCUPUI0ZV10fEO4_S_Mj2Kpf10tt_SMU6Qw/viewform"
-        target="_blank"
-        className="program-apply-btn"
+        href="/apply?program=cybersecurity"
+                className="program-apply-btn"
       >
         Apply for this Program
       </a>

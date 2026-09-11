@@ -38,6 +38,7 @@ function Footer() {
           <h2>Get in Touch</h2>
           <p>Have a training question or a project in mind? Let’s talk.</p>
           <a className="footer-phone" href="tel:+2347043998793">+234 704 399 8793</a>
+          <a className="footer-email" href="mailto:tomsphereglobaltechltd@gmail.com">tomsphereglobaltechltd@gmail.com</a>
           <a className="footer-contact" href="https://wa.me/2347043998793" target="_blank" rel="noopener noreferrer">Chat on WhatsApp ↗</a>
           <p className="footer-location">Based in Lagos, Nigeria</p>
         </div>

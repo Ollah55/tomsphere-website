@@ -1,3 +1,4 @@
+import ProgramFees from "../../components/ProgramFees"
 import "../../styles/programs.css"
 import { useNavigate } from "react-router-dom"
 import { Helmet } from "react-helmet"
@@ -43,10 +44,11 @@ function UIUX() {
         <li>Design Tools and Collaboration</li>
       </ul>
 
+      <ProgramFees programId="uiux" />
+
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScfEVSSaC10cB8RCUPUI0ZV10fEO4_S_Mj2Kpf10tt_SMU6Qw/viewform"
-        target="_blank"
-        className="program-apply-btn"
+        href="/apply?program=uiux"
+                className="program-apply-btn"
       >
         Apply for this Program
       </a>

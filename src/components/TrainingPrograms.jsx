@@ -5,24 +5,28 @@ function TrainingPrograms() {
   const programs = [
     {
       icon: <Code size={30} />,
+      id: "frontend",
       title: "Frontend Development",
       description:
         "Learn HTML, CSS, JavaScript, React, and modern frontend frameworks to build beautiful, responsive user interfaces.",
     },
     {
       icon: <Server size={30} />,
+      id: "backend",
       title: "Backend Development",
       description:
         "Master server-side programming, databases, APIs, and cloud services to build robust web applications.",
     },
     {
       icon: <PencilRuler size={30} />,
+      id: "uiux",
       title: "UI/UX Design",
       description:
         "Create stunning user experiences with Figma, design thinking, and user research methodologies.",
     },
     {
       icon: <Database size={30} />,
+      id: "data-analytics",
       title: "Data Analysis",
       description:
         "Transform data into insights using Python, SQL, Excel, and data visualization tools.",
@@ -43,9 +47,7 @@ function TrainingPrograms() {
             <p>{program.description}</p>
 
             <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScfEVSSaC10cB8RCUPUI0ZV10fEO4_S_Mj2Kpf10tt_SMU6Qw/viewform?usp=header"
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`/apply?program=${program.id}`}
                 className="apply-btn2"
             >
                 Apply Now

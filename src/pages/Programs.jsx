@@ -1,14 +1,15 @@
 import "../styles/programs.css"
 import { Link } from "react-router-dom"
 import { Helmet } from "react-helmet"
+import ProgramFees from "../components/ProgramFees"
 
 function Programs() {
   return (
     <>
       <Helmet>
-        <title>Frontend Development Training | Tomsphere</title>
+        <title>Training Programs & Fees | Tomsphere Globaltech</title>
 
-        <meta name="description" content="Learn HTML, CSS, JavaScript and React with hands-on frontend development training at Tomsphere Globaltech." />
+        <meta name="description" content="Compare physical and online training fees for Fullstack, Frontend, Backend, Data Analytics, Cybersecurity and UI/UX at Tomsphere Globaltech." />
         <meta name="robots" content="index, follow" />
         <meta name="geo.region" content="NG" />
         <meta name="geo.placename" content="Ikeja, Lagos" />
@@ -17,6 +18,7 @@ function Programs() {
       <section className="programs-page">
 
         <h1 className="programs-title">Our Programs</h1>
+        <ProgramFees />
 
         <ul className="programs-list">
 

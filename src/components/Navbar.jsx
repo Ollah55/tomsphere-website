@@ -90,10 +90,8 @@ function Navbar() {
 
       {/* Apply Button */}
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScfEVSSaC10cB8RCUPUI0ZV10fEO4_S_Mj2Kpf10tt_SMU6Qw/viewform"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="apply-btn"
+        href="/apply"
+                className="apply-btn"
         onClick={closeMenu}
       >
         Apply Now →
