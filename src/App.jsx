@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -17,6 +17,14 @@ import UIUX from "./pages/programs/UIUX"
 import DataAnalytics from "./pages/programs/DataAnalytics"
 import BackToTop from "./components/BackToTop";
 
+function ScrollOnNavigation() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" })
+  }, [pathname])
+  return null
+}
+
 function App() {
   useEffect(() => {
   AOS.init({
@@ -26,6 +34,7 @@ function App() {
 }, []);
   return (
     <BrowserRouter>
+      <ScrollOnNavigation />
 
       <Navbar />
 

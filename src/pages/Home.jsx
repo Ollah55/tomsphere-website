@@ -1,4 +1,5 @@
 import Hero from "../components/Hero"
+import HomeProducts from "../components/HomeProducts"
 import WhyChoose from "../components/WhyChoose"
 import TrainingPrograms from "../components/TrainingPrograms"
 import ServicesSection from "../components/ServicesSection"
@@ -28,6 +29,7 @@ function Home() {
       <WhyChoose />
       <TrainingPrograms />
       <ServicesSection />
+      <HomeProducts />
       <HowTrainingWorks />
       <WhatYouGain />
       <FAQ />

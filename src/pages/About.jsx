@@ -1,5 +1,5 @@
 import "../styles/about.css"
-import founder from "../assets/me.jpg"
+import founder from "../assets/me.webp"
 import { Helmet } from "react-helmet"
 
 function About() {

@@ -235,3 +235,8 @@ display:none;
 }
 
 }
+/* Keep navigation within the viewport and expose keyboard focus. */
+.navbar { box-sizing: border-box; }
+.hamburger { background: transparent; border: 0; padding: 8px; }
+.navbar a:focus-visible, .hamburger:focus-visible { outline: 3px solid #1565a9; outline-offset: 4px; }
+@media (max-width: 768px) { .hamburger { margin-right: 0; } }

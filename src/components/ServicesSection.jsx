@@ -1,5 +1,5 @@
 import "../styles/servicesSection.css";
-import screen from "../assets/screen.jpg";
+import screen from "../assets/screen.webp";
 import { Laptop } from "lucide-react";
 
 function ServicesSection() {

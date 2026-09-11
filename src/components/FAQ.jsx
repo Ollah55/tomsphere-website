@@ -47,17 +47,18 @@ function FAQ() {
         {faqs.map((faq, index) => (
           <div className="faq-item" key={index}>
 
-            <div
+            <button
+              type="button"
+              aria-expanded={activeIndex === index}
+              aria-controls={`faq-answer-${index}`}
               className="faq-question"
               onClick={() => toggleFAQ(index)}
             >
               {faq.question}
               <span>{activeIndex === index ? "-" : "+"}</span>
-            </div>
+            </button>
 
-            {activeIndex === index && (
-              <p className="faq-answer">{faq.answer}</p>
-            )}
+            <p id={`faq-answer-${index}`} className="faq-answer" hidden={activeIndex !== index}>{faq.answer}</p>
 
           </div>
         ))}

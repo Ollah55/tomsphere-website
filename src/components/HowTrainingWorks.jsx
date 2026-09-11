@@ -6,7 +6,7 @@ function HowTrainingWorks() {
     {
       number: "1",
       title: "Apply for the program",
-      description: "Fill out our simple application form via WhatsApp",
+      description: "Click Apply Now and complete our online application form",
     },
     {
       number: "2",

@@ -19,7 +19,7 @@
       rgba(24, 82, 138, 0.85),
       rgba(24, 82, 138, 0.85)
     ),
-    url("../assets/keyboard.jpg");
+    url("../assets/keyboard.webp");
 
   background-size: cover;
   background-position: center;
@@ -220,3 +220,11 @@ text-align:center;
 }
 
 }
+.hero { height: auto; align-items: stretch; }
+.hero-left { box-sizing: border-box; height: auto; padding: 70px 40px; display: flex; flex-direction: column; justify-content: center; }
+.hero-left h1 { font-size: clamp(32px, 4vw, 54px); }
+.hero-right { height: auto; min-height: 480px; }
+.hero-buttons .apply { color: #102f4d; background: #fbbf24; }
+.hero-buttons a:focus-visible { outline: 3px solid white; outline-offset: 5px; }
+@media (max-width: 1024px) { .hero-right { height: 400px; min-height: 0; } }
+@media (max-width: 768px) { .hero-left { padding: 40px 24px; } .hero-right { height: 280px; } .hero-buttons a { box-sizing: border-box; max-width: 100%; } }

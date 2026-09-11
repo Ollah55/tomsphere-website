@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "../styles/navbar.css"
-import logo from "../assets/Tlogo.png"
+import logo from "../assets/Tlogo.webp"
 import { NavLink } from "react-router-dom"
 
 function Navbar() {
@@ -22,15 +22,19 @@ function Navbar() {
       </div>
 
       {/* Hamburger */}
-     <div 
+     <button
+        type="button"
+        aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+        aria-expanded={menuOpen}
+        aria-controls="main-navigation"
         className="hamburger"
         onClick={() => setMenuOpen(!menuOpen)}
         >
         {menuOpen ? "✖" : "☰"}
-    </div>
+    </button>
 
       {/* Navigation Links */}
-      <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
+      <ul id="main-navigation" className={`nav-links ${menuOpen ? "active" : ""}`}>
 
         <li>
           <NavLink 
