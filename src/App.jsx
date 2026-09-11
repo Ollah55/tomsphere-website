@@ -8,6 +8,7 @@ import Services from "./pages/Services"
 import Home from "./pages/Home"
 import Programs from "./pages/Programs"
 import About from "./pages/About"
+import Products from "./pages/Products"
 import Cybersecurity from "./pages/programs/Cybersecurity"
 import Frontend from "./pages/programs/Frontend"
 import Backend from "./pages/programs/Backend"
@@ -32,6 +33,7 @@ function App() {
 
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/programs" element={<Programs />} />
         <Route path="/programs/cybersecurity" element={<Cybersecurity />} />
         <Route path="/programs/frontend" element={<Frontend />} />

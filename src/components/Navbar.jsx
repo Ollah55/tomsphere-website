@@ -64,7 +64,17 @@ function Navbar() {
 
         <li>
           <NavLink 
-            to="/about" 
+            to="/products"
+            onClick={closeMenu}
+            className={({isActive}) => isActive ? "active-link" : ""}
+          >
+            Products
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink
+            to="/about"
             onClick={closeMenu}
             className={({isActive}) => isActive ? "active-link" : ""}
           >
